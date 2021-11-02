@@ -1,13 +1,14 @@
+body{
+    background-color: white;
+}
+
 #cover{
     background-image:url("https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2232&q=80");
     height:100vh;
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
-    border: 4px solid white;
-    border-radius:4rem;
-    margin-left: 1rem;
-    margin-right:1rem;
-    margin-bottom: 1rem;
+    width: 100%;
 }
 
 #cover img:first-child{
@@ -34,12 +35,9 @@
 #warm-up{
     background-image:url("https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
     height:100vh;
-    background-position: center;
+    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    border: 4px solid white;
-    border-radius:4rem;
-    margin-left: 1rem;
-    margin-right:1rem;
 }
 
 #warm-up h2{
@@ -74,7 +72,7 @@
 }
 
 
-#day1, #day2, #day3, #day4, #day5{
+.day{
     background-color:grey;
     opacity: 0.5;
     width: 250px; 
@@ -83,35 +81,9 @@
     margin-left: 20px;
     height:auto;
     border: 1px solid white;
-    margin-bottom: 1rem;
-    z-index:-1;
 }
 
-#day1:hover{
-    opacity: 1;
-    margin-left:15px;
-    box-shadow:3px 3px 3px white;
-}
-
-#day2:hover{
-    opacity: 1;
-    margin-left:15px;
-    box-shadow:3px 3px 3px white;
-}
-
-#day3:hover{
-    opacity: 1;
-    margin-left:15px;
-    box-shadow:3px 3px 3px white;
-}
-
-#day4:hover{
-    opacity: 1;
-    margin-left:15px;
-    box-shadow:3px 3px 3px white;
-}
-
-#day5:hover{
+.day:hover{
     opacity: 1;
     margin-left:15px;
     box-shadow:3px 3px 3px white;
