@@ -63,7 +63,6 @@
 
 #warm-up li{
     margin-top: 10px;
-    text-align: center;
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;
@@ -72,11 +71,44 @@
 
 #warm-up img{
     margin-top: 10px;
-    margin-left: 32rem;
-    width:20rem;
+    width:15rem;
     border: 4px solid white;
     border-radius:4rem;
 }
 
 
+#day1, #day2, #day3, #day4{
+    background-color:grey;
+    opacity: 0.5;
+    width: 320px; 
+    float:left;
+    border-radius:4rem;
+    margin-left: 20px;
+    height:auto;
+    border: 1px solid white;
+    margin-bottom: 1rem;
+}
 
+#day1:hover{
+    opacity: 1;
+    margin-left:15px;
+    box-shadow:3px 3px 3px grey;
+}
+
+#day2:hover{
+    opacity: 1;
+    margin-left:15px;
+    box-shadow:3px 3px 3px grey;
+}
+
+#day3:hover{
+    opacity: 1;
+    margin-left:15px;
+    box-shadow:3px 3px 3px grey;
+}
+
+#day4:hover{
+    opacity: 1;
+    margin-left:15px;
+    box-shadow:3px 3px 3px grey;
+}
